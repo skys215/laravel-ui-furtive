@@ -22,7 +22,7 @@
             <div class="grd-row-col-5-6">
                 <div class="content grd-row">
                     <div class="content-wrapper p1">
-                        <p class="title m1">@yield('title', __('dashboard'))</p>
+                        <p class="title m1">@yield('title', __('Dashboard'))</p>
 
                         @yield('content')
                     </div>
