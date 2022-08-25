@@ -40,8 +40,8 @@
                     <label for="email">{{ __('auth.email') }}</label>
                     <input type="email" name="email" placeholder="{{ __('auth.email') }}" value="{{ old('email') }}">
 
-                    <label for="password">{{ __('auth.password') }}</label>
-                    <input type="password" name="password" placeholder="{{ __('auth.password') }}" required autocomplete="current-password" value="">
+                    <label for="password">{{ __('Password') }}</label>
+                    <input type="password" name="password" placeholder="{{ __('Password') }}" required autocomplete="current-password" value="">
 
                     <button type="submit" class="btn--blue">{{ __('auth.confirm_password') }}</button>
 

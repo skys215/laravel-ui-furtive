@@ -21,7 +21,7 @@
         </div>
         <div class="content grd-row">
             <div class="grd-row-col-2-6 center-box">
-                <p>{{ __('auth.login') }}</p>
+                <p>{{ __('auth.sign_in') }}</p>
 
                 @error('email')
                 <aside class="fnt--white bg--red p1 my1">
@@ -39,8 +39,8 @@
                     <label for="email">{{ __('auth.email') }}</label>
                     <input type="email" name="email" placeholder="{{ __('auth.email') }}" value="{{ old('email') }}">
 
-                    <label for="password">{{ __('auth.password') }}</label>
-                    <input type="password" name="password" placeholder="{{ __('auth.password') }}" value="">
+                    <label for="password">{{ __('Password') }}</label>
+                    <input type="password" name="password" placeholder="{{ __('Password') }}" value="">
 
                     <input type="checkbox" id="remember" name="remember">
                     <label for="remember" class="pure-checkbox">{{ __('auth.remember_me') }}</label>
@@ -50,8 +50,8 @@
                     </p>
 
                     <p class="txt--center">
-                        <a href="{{ route('password.request') }}">{{ __('auth.login.forgot_password') }}</a>
-                        <a href="{{ route('register') }}">{{ __('auth.login.register_membership') }}</a>
+                        <a href="{{ route('password.request') }}">{{ __('auth.sign_in.forgot_password') }}</a>
+                        <a href="{{ route('register') }}">{{ __('auth.sign_in.register_membership') }}</a>
                     </p>
                 </form>
             </div>

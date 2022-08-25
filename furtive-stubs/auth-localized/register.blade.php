@@ -46,8 +46,8 @@
                     <label for="email">{{ __('auth.email') }}</label>
                     <input type="email" name="email" placeholder="{{ __('auth.email') }}" value="{{ old('email') }}">
 
-                    <label for="password">{{ __('auth.password') }}</label>
-                    <input type="password" name="password" placeholder="{{ __('auth.password') }}" value="">
+                    <label for="password">{{ __('Password') }}</label>
+                    <input type="password" name="password" placeholder="{{ __('Password') }}" value="">
 
                     <label for="password">{{ __('auth.confirm_password') }}</label>
                     <input type="password" name="password_confirmation" placeholder="{{ __('auth.retype_password') }}" value="">
