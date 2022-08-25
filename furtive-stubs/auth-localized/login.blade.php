@@ -50,8 +50,8 @@
                     </p>
 
                     <p class="txt--center">
-                        <a href="{{ route('password.request') }}">{{ __('auth.sign_in.forgot_password') }}</a>
-                        <a href="{{ route('register') }}">{{ __('auth.sign_in.register_membership') }}</a>
+                        <a href="{{ route('password.request') }}">{{ __('auth.login.forgot_password') }}</a>
+                        <a href="{{ route('register') }}">{{ __('auth.login.register_membership') }}</a>
                     </p>
                 </form>
             </div>
