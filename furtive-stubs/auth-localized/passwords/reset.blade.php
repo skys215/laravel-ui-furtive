@@ -56,7 +56,7 @@
                     <input type="password" name="password" placeholder="{{ __('Password') }}" value="">
 
                     <label for="password">{{ __('auth.confirm_password') }}</label>
-                    <input type="password" name="password_confirmation" placeholder="{{ __('auth.retype_password') }}" value="">
+                    <input type="password" name="password_confirmation" placeholder="{{ __('auth.confirm_password') }}" value="">
 
                     <button type="submit" class="btn--blue">{{ __('auth.reset_password.title') }}</button>
 

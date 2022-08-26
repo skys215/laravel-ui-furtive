@@ -50,11 +50,11 @@
                     <input type="password" name="password" placeholder="{{ __('Password') }}" value="">
 
                     <label for="password">{{ __('auth.confirm_password') }}</label>
-                    <input type="password" name="password_confirmation" placeholder="{{ __('auth.retype_password') }}" value="">
+                    <input type="password" name="password_confirmation" placeholder="{{ __('auth.confirm_password') }}" value="">
 
                     <label for="agreeTerms">
                         <input type="checkbox" id="agreeTerms" name="terms" value="agree">
-                        {{ __('auth.registration.i_agree') }} <a href="#"> {{ __('auth.registration.terms') }}</a>.
+                        {{ __('auth.registration.i_agree') }} <a href="#"> {{ __('auth.registration.terms') }}</a>
                     </label>
 
                     <p class="txt--center">
@@ -62,7 +62,7 @@
                     </p>
 
                     <p class="txt--center">
-                        <a href="{{ route('login') }}" class="text-center">{{ __('auth.registration.have_membership') }}</a>
+                        <a href="{{ route('login') }}" class="text-center">{{ __('auth.sign_in') }}</a>
                     </p>
                 </form>
             </div>

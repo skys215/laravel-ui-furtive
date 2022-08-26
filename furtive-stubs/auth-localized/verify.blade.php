@@ -20,7 +20,7 @@
         </div>
         <div class="content grd-row">
             <div class="grd-row-col-2-6 center-box">
-                <p>{{ __('auth.verify') }}</p>
+                <p>{{ __('auth.verify_email.title') }}</p>
 
                 @if (session('resent'))
                     <div class="fnt--white bg--green p1 my1" role="alert">{{ __('auth.verify_email.success') }}
