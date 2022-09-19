@@ -51,7 +51,7 @@
 
                     <p class="txt--center">
                         <a href="{{ route('password.request') }}">{{ __('auth.login.forgot_password') }}</a>
-                        <a href="{{ route('register') }}">{{ __('auth.login.register_membership') }}</a>
+                        <a href="{{ route('register') }}">{{ __('auth.registration.title') }}</a>
                     </p>
                 </form>
             </div>

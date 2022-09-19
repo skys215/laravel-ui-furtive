@@ -40,7 +40,7 @@
 
                 <form action="{{ route('register') }}" method="POST" role="form" class="p2 brdr--mid-gray">
                     @csrf
-                    <label for="name">{{ __('auth.name') }}</label>
+                    <label for="name">{{ __('auth.full_name') }}</label>
                     <input type="text" name="name" placeholder="{{ __('auth.full_name') }}" value="{{ old('name') }}">
 
                     <label for="email">{{ __('auth.email') }}</label>
