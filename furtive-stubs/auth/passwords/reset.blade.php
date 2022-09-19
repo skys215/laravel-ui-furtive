@@ -20,7 +20,7 @@
         </div>
         <div class="content grd-row">
             <div class="grd-row-col-2-6 center-box">
-                <p>{{ __('auth.forgot_password') }}</p>
+                <p>Reset Password</p>
 
                 @error('email')
                 <aside class="fnt--white bg--red p1 my1">
